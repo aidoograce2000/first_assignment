@@ -1,0 +1,71 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;  
+    background-image:url("sing.png" ) ;
+    background-repeat: repeat;
+}
+
+.header{
+    color: greenyellow;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font:xx-large;
+}
+.text{
+  font-style: italic;
+  color:black;
+  font-family: monospace;
+    
+    
+}
+.button{
+    color:rgb(44, 19, 2);
+}
+
+.dive{
+    display: flex;
+   justify-content: center;
+box-shadow: 0px 2px 2px 0px;
+background-color:green ;
+    border: none;
+    color:aliceblue;
+    width: 30vh;
+    cursor:pointer;
+}
+
+.nav{
+    display: flex;
+    flex-direction: column;
+justify-content: end;
+}
+
+
+
+@media screen and (max-width: 570px) {
+    .top {
+        display: flex;
+        flex: 0.2;
+        flex-direction: column;
+    }
+    .button{
+        color:darkblue;
+    }
+    .text{
+        font-style: italic;
+        color:black ;
+          font-family: Verdana, Geneva, Tahoma, sans-serif; 
+      }
+
+    .dive{
+        display: flex;
+       justify-content: center;
+    box-shadow: 0px 2px 2px 0px;
+    background-color:green ;
+        border: none;
+        color:white;
+        width: 30vh;
+        cursor:pointer;
+    }
+}
